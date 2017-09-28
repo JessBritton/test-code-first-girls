@@ -74,3 +74,9 @@ div {
   font-size:1em;
   color:blue;
 }
+#landingPage {
+background-image: url(images/landing_page.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
