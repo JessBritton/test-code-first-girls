@@ -5,6 +5,7 @@ a {
   color: Pink;
   text-align: right;
 }
+/* PAGE TITLES */
 h1#Contact_Us {
   color: #FF7F50;
 }
@@ -16,19 +17,19 @@ p#Confirm {
 }
 
 
-/* The side navigation menu */
+/* NAVAGATION MENU*/
 .sidenav {
     width: auto;
-    height: 100%; /* 100% Full-height */
-    max-width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    height: 100%;
+    max-width: 0;
+    position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
-    background-color: #FF7F50; /* Cream*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    background-color: #FF7F50;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
 }
 
 /* The navigation menu links */
@@ -55,14 +56,10 @@ p#Confirm {
     font-size: 36px;
     margin-left: 50px;
 }
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
     transition: margin-right.5s;
     padding: 20px;
 }
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -79,12 +76,6 @@ div {
   font-size:1em;
   color:blue;
 }
-/* div#landingPage {
-background-image: url(Wardrobe.png);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-}*/
 
 #homeBanner {
     background: url(Wardrobe.png) no-repeat center center scroll;
@@ -164,4 +155,15 @@ input[type=reset] {
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=reset]:hover {
     background-color: #000000;
+}
+
+#BodyChec {
+  color: #FF7F50;
+  text-align: center;
+}
+#Wrapper { white-space: nowrap; }
+#Wrapper img {
+display: block;
+float: left;
+margin: 20px;
 }

@@ -9,6 +9,4 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.maxWidth = "0";
     document.getElementById("main").style.marginLeft= "0";
-   
-
 }
